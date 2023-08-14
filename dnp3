@@ -1,0 +1,15 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+	int length,breath;
+	clrscr();
+	cout<<"length of ractangle is  ::";
+	cin>>length;
+	cout<<"breath of ractanhle is  ::";
+	cin>>breath;
+	cout<<"paramiter of rectangle is ::"<<length+length+breath+breath<<endl;
+	cout<<"area of rectangle is ::"<<length*breath<<endl;
+
+	getch();
+}
