@@ -1,0 +1,21 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+		float p,t,r;
+		
+		cout<<"enter the principal of amount::";
+		cin>>p;
+		
+		cout<"enter the time::";
+		cin>>t;
+		
+		cout<<"enter rate of time::";
+		cin>>r;
+		
+		cout<<"simple intrest of ::"<<p*t*r/100;
+		
+		cout<<"daksh nanera 08";
+		return 0;
+}
