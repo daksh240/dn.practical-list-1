@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+
+int main() 
+{
+	float p,r,t,temp;
+	cout<<"enter the principal ammount";
+	cin>>p;
+	cout<<"enter the rate of interst";
+	cin>>r;
+	cout<<"enter the time period";
+	cin>>t;
+	temp=p*(1+r/100)*t-p;
+	cout<<"the compound inmterst of the following ammount is:)"<<temp<<endl;
+  cout<<"daksh nanera 08"
+	return 0;
+}
+	
+	
+	
+	
+
