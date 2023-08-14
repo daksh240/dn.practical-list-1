@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int no1,no2,temp;
+	cout<<"enter first number::";
+	cin>>no1;
+	cout<<"enter second number::";
+	cin>>no2;
+	
+	temp=no1;
+	no1=no2;
+	no2=temp;
+	
+	cout<<"swap number is::"<<no1<<endl;
+	cout<<"swap number is::"<<no2<<endl;
+	cout<<"my name is daksh nanera";
+  cout<<"220130318008";
+	return 0;
+}
