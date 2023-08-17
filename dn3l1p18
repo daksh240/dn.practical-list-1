@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+  
+int main()
+{
+    int base, exp, i, result = 1;
+     
+ 	cout<<"Enter number of base and exponent::";
+    cin>>base>>exp;
+     
+    
+    for(i=0;i<exp;i++)
+	{
+        result = result * base;
+    }
+      
+    cout<<base<< "^" << exp << " = " <<result<<endl;
+    
+    cout<<"daksh nanera 08"; 
+    return 0;
+}
